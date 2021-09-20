@@ -1,0 +1,65 @@
+• char - typ znakowy
+• int - liczba całkowita
+• short - liczby całkowite krótkie
+• long - liczby całkowite długie
+• float - liczba zmiennoprzecinkowa (rzeczywista)
+• double - liczby zmiennoprzecinkowe podwójnej precyzji
+• long double - liczby zmiennoprzecinkowe podwójnej precyzji długie
+
++  6+3 9 dodawanie
+-  8-5 3 odejmowanie
+*  6*3 18 mnożenie
+/  6/4 1 dzielenie całkowite
+%  6%5 1 dzielenie modulo
+/  9/2 4.5 dzielenie zmiennoprzecinkowe
+
+== x == y sprawdź czy x jest równe y
+! = x! = y sprawdż czy x jest różne od y
+< x < y sprawdź czy x jest mniejsze od y
+> x > y sprawdź czy x jest większe od y
+<= x <= y sprawdź czy x jest mniejsze lub równe y
+>= x >= y sprawdź czy x jest większe lub równe y
+&& x < 0&&y < 0 ”i” logiczne
+|| x < 0||y < 0 ”lub” logiczne
+++ x++ zwiększ x o 1 (inkrementacja)
+−− x−− zmniejsz x o 1 (dekrementacja)
++= x+=4 zwiększ x o 4
+-= x-=3 zmniejsz x o 3
+*= x*=2 zwiększ x 2 razy
+/= x/=6 zmniejsz x 6 razy
+
+
+if (warunek)
+{
+instrukcja1;
+instrukcja2;
+instrukcja3;
+}
+else
+{
+
+
+Typ Wielkość w bajtach Zakres liczbowy
+int 2 lub 4 liczby całkowite o takim samym
+zakresie jak short albo long
+
+
+short 2 małe liczby całkowite z zakresu
+-32 768 do 32 767 ze znakiem
+albo od 0 do 65 535 bez znaku
+
+
+long 4 duże liczby całkowite z zakresu
+-2 147 483 648 do 2 147 483 647
+albo od 0 do 4 294 967 295
+
+
+float 4 liczby zmiennoprzecinkowe
+
+
+double 8 liczby zmiennoprzecinkowe
+podwójnej precyzji
+
+
+long double 10 liczby zmiennoprzecinkowe
+rozszerzonej podwójnej precyzji
